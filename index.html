@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>EasyCharter</title>
+	<link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="uk-position-relative">
+				
+					<img  src="portada3.jpg" alt="atardecer">
+				
+			    
+			    <div class="uk-position-top">
+			        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+			            <div class="uk-navbar-left">
+			            	<a id="logo2" class="uk-navbar-item uk-logo" href="#"><img id="logo" src="logo.png"> EasyCharters</a>
+			            </div>
+			            <div class="uk-navbar-right">
+				            <ul class="uk-navbar-nav">
+			                    <li><a href="#">LogIn</a></li>
+			                    <li><a href="#">Sign In</a></li>
+				            </ul>
+				        </div>
+			        </nav>
+			    </div>
+			</div>
+		</nav>
+		<div class="uk-position-center">
+			<form class="uk-form-horizontal">
+				<div >
+					<div class="uk-form-controls">
+			            <select class="uk-select uk-form-width-medium uk-form-large" id="form-stacked-select" name="fTipo">
+			                <option value="">-Tipo de barco-</option>
+			                <option value="motora">Motora</option>
+			                <option value="velero">Velero</option>
+			                <option value="llaut">LLaut</option>
+			            </select>
+			            <select class="uk-select uk-form-width-medium uk-form-large" id="form-stacked-select" name="fZona">
+			            	<option value="">-Zona-</option>
+			            	<option value="andratx">Andratx</option>
+			            	<option value="calvia">Calvia</option>
+			            	<option value="palma">Palma</option>
+			            	<option value="soller">Soller</option>
+			            	<option value="alcudia">Alcudia</option>
+			            </select>
+			            <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Llegada" id="datepicker" name="fLlegada">
+			            <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Salida" id="datepicker2" name="fSalida">
+			            <button id="colorButton" class="uk-button uk-button-default uk-form-large">Submit</button>
+			        </div>
+				</div>
+			</form>
+		</div>
+	</header>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+	
+</body>
+</html>

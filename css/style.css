@@ -1,0 +1,38 @@
+a img#logo{
+	width: 2em;
+	height: 2em;
+
+}
+a#logo2{
+	font-size: 1.5em;
+	color: black !important;
+	font-weight: bold;
+}
+
+li a{
+	font-size: 1.5em !important;
+	color:black !important;
+}
+button#colorButton{
+	color:#ddd !important;
+	font-size:20px !important;
+}
+button#colorButton:hover{
+	background-color:#0277bd;
+	color:#ddd !important;
+	font-size:20px !important;
+}
+form{
+	margin-right: 150px !important;
+}
+select,input{
+	border-radius: 15px !important;
+
+	background-color: transparent !important;
+	color:white !important;
+}
+
+select:hover,select:focus{
+	color:black !important;
+	background-color: white !important;
+}
